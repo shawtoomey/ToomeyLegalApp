@@ -1,6 +1,15 @@
 
 import './App.css';
 import React from 'react';
+import MatterInfo from './MatterInfo';
+import QuoteInfo from './QuoteInfo';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+  Link,
+} from "react-router-dom";
 
 function App() {
   const isBackgroundPurple = true;
@@ -15,14 +24,14 @@ function App() {
       </p>
       <br>
       </br>
-      <form action="matterlogin.js">
+      <form action="/MatterInfo">
         <button type="submit">View a matter</button>
       </form>
       <br>
       </br>
-      <form action="quote.js">
-       <button type="submit">Receive a quote</button>
-      </form>
+      <form action="/QuoteInfo">
+        <button type="submit">Receive a Quote</button>
+      </form>  
     </header>
   </div>
 
