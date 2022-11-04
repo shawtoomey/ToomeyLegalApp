@@ -1,21 +1,14 @@
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  height: 100%;
+  width: 100%;
 }
 
 .App-header {
   background-color: #5a3a9a;
   min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,11 +33,12 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
   font-size:larger;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 code {
@@ -56,14 +50,30 @@ button {
   font-family: 'Montserrat', sans-serif;
   font-size: large;
   font-weight: bold;
-  background-color: #cc99ff;
-  color:black;
-  width: 200px;
-  height: 50px;
-  border-radius: 15px;
+  background-color: #000000;
+  color: #f3eded;
+  min-width: 200px;
+  min-height: 50px;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
 }
 
+.button:hover{
+  color:#5a3a9a 
+}
 
+.button:active{
+  color: white;
+}
+
+button:focus {
+  background: #808080;
+  outline: none;
+  -webkit-box-shadow: inset 0px 0px 5px #474646;
+     -moz-box-shadow: inset 0px 0px 5px #474646;
+          box-shadow: inset 0px 0px 5px #474646;
+}
 
 img {
   height: 100px;
@@ -71,34 +81,17 @@ img {
   border-color: #5a3a9a;
 }
 
-* {
-  font-family: 'Montserrat', sans-serif;
-}
-
-Nav {
-  height: 55px;
-  background-color: #8e50a6;
-  width: 100%;
-
-}
-
-
 h1 {
-  text-align: left;
+  text-align: center;
   margin: 1px;
   padding: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
   font-size: x-large;
   display: inline;
+  font-family: 'Montserrat', sans-serif;
 }
 
-li {
-  text-align: right;
-  font-size: large;
-  display: inline;
-  color: blue;
+Form {
+  color: white;
+  text-align: center;
+
 }
-
-
-
