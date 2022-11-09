@@ -16,6 +16,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 30px;
 }
 
 .App-link {
@@ -52,7 +53,7 @@ button {
   font-weight: bold;
   background-color: #000000;
   color: #f3eded;
-  min-width: 200px;
+  min-width: 248px;
   min-height: 50px;
   border: none;
   padding: 15px;
@@ -90,8 +91,91 @@ h1 {
   font-family: 'Montserrat', sans-serif;
 }
 
-Form {
-  color: white;
-  text-align: center;
+form.Sign-Up-Form {
+  color: black;
+  text-align: left;
+  padding: 5px;
+  background-color: white;
+  border-radius: 8px;
+  width: 250px;
+}
 
+form.Login-Form {
+  color: black;
+  text-align: left;
+  padding: 5px;
+  background-color: white;
+  border-radius: 8px;
+  width: 250px;
+}
+
+input.password {
+  border-radius: 4px;
+  border-color: black;
+  border-width: 2px;
+  font-family: 'Montserrat', sans-serif;
+  height: 25px;
+  width: 240px;
+}
+
+input.email {
+  border-radius: 4px;
+  border-color: black;
+  border-width: 2px;
+  font-family: 'Montserrat', sans-serif;
+  height: 25px;
+  width: 240px;
+}
+
+select {
+  border-radius: 4px;
+  border-color: black;
+  border-width: 2px;
+  font-family: 'Montserrat', sans-serif;
+  height: 25px;
+  width: 240px;
+}
+
+input.forename {
+  border-radius: 4px;
+  border-color: black;
+  border-width: 2px;
+  font-family: 'Montserrat', sans-serif;
+  height: 25px;
+  width: 240px;
+}
+
+input.surname {
+  border-radius: 4px;
+  border-color: black;
+  border-width: 2px;
+  font-family: 'Montserrat', sans-serif;
+  height: 25px;
+  width: 240px;
+}
+
+input.passwordconfirm {
+  border-radius: 4px;
+  border-color: black;
+  border-width: 2px;
+  font-family: 'Montserrat', sans-serif;
+  height: 25px;
+  width: 240px;
+}
+
+h2 {
+  font-size: large;
+}
+
+a {
+  color: black;
+}
+
+p {
+  font-size: medium;
+}
+
+label {
+  font-size: large;
+  font-family: 'Montserrat', sans-serif;
 }

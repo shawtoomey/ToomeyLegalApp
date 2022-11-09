@@ -1,4 +1,6 @@
 import React from "react";
+import {BrowserRouter as Router, Routes, Link} from 'react-router-dom';
+import MyLinkButton from "../components/LinkButton"
 import '../App.css';
 
 const MatterInfo = () => {
@@ -13,14 +15,18 @@ const MatterInfo = () => {
             <h1>Please login or create an account to view your matters.</h1>
             <br>
             </br>
-            <form onSubmit={"./Login"}>
-              <button type="submit">Log in</button>
-            </form>
+            <Link to='/LogIn'>
+              <button className='button'>
+                Login
+              </button>
+            </Link>
             <br>
             </br>
-            <form onSubmit={"./CreateAccount"}>
-              <button type="submit">Create Account</button>
-            </form>  
+            <Link to='/signup'>
+              <button className='button'>
+                Sign Up
+              </button>
+            </Link>
         </header>
         </div>
     </div>

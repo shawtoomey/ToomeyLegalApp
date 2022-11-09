@@ -16,7 +16,7 @@ const Quotation = () => {
             </br>
             <form onSubmit={"./QuoteResult"}>
 
-              <button type="submit">Submit</button>
+              <button type="submit" className="quotation-submission-btn">Submit</button>
             </form> 
             </header> 
         </div>
